@@ -23,7 +23,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 18%;
+    margin-top: 15%;
 }
 
 .centerAlign {
@@ -32,13 +32,39 @@ a {
     margin-bottom: 10px;
 }
 
+.searchIcon{
+    color: #9aa0a6;
+    height: 47px;
+    width: 22px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 .searchBar {
+    justify-content: flex-start;
     background-color: #fff;
-    width: 45%;
+    width: 35%;
     height: 45px;
     font-size: 16px;
     border: 1px solid #dfe1e5;
     border-radius: 25px;
+    margin-left: 32%;
+    font-size: 16px;
+}
+
+.searchBar:hover{
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0);
+}
+
+input{
+    border: 0;
+    width: 90%;
+}
+
+input:focus{
+    outline: none;
 }
 
 button {
