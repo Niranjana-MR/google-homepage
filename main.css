@@ -1,0 +1,44 @@
+a {
+    text-decoration: none;
+}
+
+.navHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.navItem {
+    margin: 0px;
+    padding: 5px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 18%;
+}
+
+.centerAlign{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.navFooter {
+    display: flex;
+    flex-direction: row;
+}
+
+.footerItem {
+    margin: 0px;
+    padding: 5px;
+}
