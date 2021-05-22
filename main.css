@@ -9,6 +9,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .navHeader {
     display: flex;
     flex-direction: row;
@@ -34,6 +38,13 @@ a {
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+
+.appDropdown:hover {
+    border-radius: 18px;
+    background-color: #DBDFE4;
+    height: max-content;
 }
 
 .profilePic {
@@ -117,7 +128,7 @@ button:hover {
     width: 100%;
     display: inline;
     background-color: #f2f2f2;
-    
+
 }
 
 
